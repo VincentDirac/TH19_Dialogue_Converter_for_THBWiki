@@ -44,16 +44,20 @@ def convertMsg(root, file):
                         g.write("status\n如果玩家被击败\n")
             if "\t7;0" in line:
                 # 判定战前自机
-                if "\t19;" not in fileList[item+2]:
-                    g.write("char\n{}\n".format(charaResult[3]))
-                else:
+                if "\t19;" in fileList[item+2]:
                     pass
+                elif "\t20;" in fileList[item+2]:
+                    pass
+                else:
+                    g.write("char\n{}\n".format(charaResult[3]))
             if "\t8;0" in line:
                 # 判定战前敌机
-                if "\t19;" not in fileList[item+2]:
-                    g.write("char\n{}\n".format(charaResult[stageNo+3]))
-                else:
+                if "\t19;" in fileList[item+2]:
                     pass
+                elif "\t20;" in fileList[item+2]:
+                    pass
+                else:
+                    g.write("char\n{}\n".format(charaResult[stageNo+3]))
             if "\t42;" in line:
                 # 判定战后胜者
                 if stageID == 1:
@@ -83,12 +87,11 @@ def convertMsg(root, file):
                 dbCursorTitles = TH19_database.cursor()
                 dbCursorTitles.execute("""SELECT * FROM BossTitles
                      Where CharaName = '{}'""".format(charaResult[stageNo+3]))
-                bossTitle = dbCursorTitles.fetchone()
-                print(type(bossTitle[3]))
-                print(bossTitle[3])
-                g.write(str(bossTitle[3]))
-            
-            
+                bossTitle = dbCursorTitles.fetchone()[3]
+                bossTitle = bossTitle.replace("\\n", "\n")
+                g.write(bossTitle)
+
+# 条件块太多了。还有bgm和name比较麻烦。又不想手调，也许可以考虑二次替换emmm睡了（
 
 if __name__ == "__main__":
     CreateDatabase.CreateDatabase("data/TH19_BossTitles.xlsx", "data/TH19_BGM_Map.xlsx",
