@@ -86,7 +86,7 @@ def convertMsg(root, file):
             if "\t20;" in line:
                 dbCursorTitles = TH19_database.cursor()
                 dbCursorTitles.execute("""SELECT * FROM BossTitles
-                     Where CharaName = '{}'""".format(charaResult[stageNo+3]))
+                     Where CharaWikiName = '{}'""".format(charaResult[stageNo+3]))
                 bossTitle = dbCursorTitles.fetchone()[3]
                 bossTitle = bossTitle.replace("\\n", "\n")
                 g.write(bossTitle)
