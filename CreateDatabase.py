@@ -7,7 +7,7 @@ def CreateDatabase(TableName, TableBGM, TableBOSS, TableCharaNo, dbFilename):
     print("数据库建立成功。")
     CreateTableBossTitles(TableName, TH19_database)
     CreateTableBGMMap(TableBGM, TH19_database)
-    CreateTableBoss(TableBOSS, TH19_database)
+    CreateTableStory(TableBOSS, TH19_database)
     print("表格创建成功")
 
 
@@ -23,10 +23,10 @@ def CreateTableBGMMap(txtFileName, dbName):
     sheetBGMMap.to_sql("BGMMap", dbName, if_exists='replace')
 
 
-def CreateTableBoss(txtFileName, dbName):
-    # 创建各自机BOSS对应关系
-    sheetBOSS = pd.read_excel(txtFileName)
-    sheetBOSS.to_sql("Story", dbName, if_exists='replace')
+def CreateTableStory(txtFileName, dbName):
+    # 创建各故事线自机BOSS结局编号对应关系
+    sheetStory = pd.read_excel(txtFileName)
+    sheetStoty.to_sql("Story", dbName, if_exists='replace')
 
 
 if __name__ == "__main__":
