@@ -37,7 +37,7 @@ def convertMsg(root, file):
                     if stageID == 0:
                         g.write("xx\n\n== Stage {} ==\n".format(stageNo))
                     elif stageID == 1:
-                        g.write("status\n[[{}]] 被击败\n".format(charaResult[stageNo+3]))
+                        g.write("status\n弹幕开始！\nstatus\n[[{}]] 被击败\n".format(charaResult[stageNo+3]))
                         if stageNo == 6:
                             g.write("status\n[[#{0}|{0}]]\n".format(charaResult[10]))
                     elif stageID == 2:
@@ -50,7 +50,7 @@ def convertMsg(root, file):
                     pass
                 else:
                     g.write("char\n{}\n".format(charaResult[3]))
-            if "\t8;0" in line:
+            if "\t8;0" in line or "\t55" in line:
                 # 判定战前敌机
                 if "\t19;" in fileList[item+2]:
                     pass
