@@ -51,9 +51,23 @@ def convertMsg(root, file):
             elif "\t7;0" in line:
                 # 判定战前自机
                 if "\t19;" in fileList[item+2]:
-                    pass
+                    line, fileList[item+2] = fileList[item+2], line
+                    if "\t19;22" in line or "\t19;23" in line:
+                        pass
+                    else:
+                        writeBGM(TH19_database, line, g)
+                elif "\t19;" in fileList[item+3]:
+                    line, fileList[item+3] = fileList[item+3], line
+                    if "\t19;22" in line or "\t19;23" in line:
+                        pass
+                    else:
+                        writeBGM(TH19_database, line, g)
                 elif "\t20;" in fileList[item+2]:
-                    pass
+                    line, fileList[item+2] = fileList[item+2], line
+                    writeBossTitle(TH19_database, charaResult, stageNo, g)
+                elif "\t20;" in fileList[item+3]:
+                    line, fileList[item+3] = fileList[item+3], line
+                    writeBossTitle(TH19_database, charaResult, stageNo, g)
                 else:
                     g.write("char\n{}\n".format(charaResult[3]))
                     print("char\n{}\n".format(charaResult[3]))
