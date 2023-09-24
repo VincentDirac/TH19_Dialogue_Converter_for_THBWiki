@@ -32,10 +32,17 @@ ja
 神社を出るのも久しぶりね
 zh
 
+char
+清兰
 ja
 誰？
 zh
 
+name
+ja
+{{清兰称号|2|兽王园}}<br>清蘭<br>Seiran
+zh
+{{清兰称号|1|兽王园}}<br>[[清兰]]<br>Seiran
 char
 清兰
 ja
@@ -72,6 +79,13 @@ ja
 だったら用はない<br>さっさと消えろ！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|2}}
+zh
+{{兽王园音乐名|1|2}}
+status
+弹幕开始！
 status
 [[清兰]] 被击败
 char
@@ -91,10 +105,17 @@ zh
 xx
 
 == Stage 2 ==
+char
+东风谷早苗
 ja
 あ、妖獣だ！
 zh
 
+name
+ja
+{{东风谷早苗称号|2|兽王园}}<br>東風谷　早苗<br>Kochiya Sanae
+zh
+{{东风谷早苗称号|1|兽王园}}<br>[[东风谷早苗]]<br>Kochiya Sanae
 char
 东风谷早苗
 ja
@@ -143,6 +164,13 @@ ja
 やられる前にやるよ！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|2}}
+zh
+{{兽王园音乐名|1|2}}
+status
+弹幕开始！
 status
 [[东风谷早苗]] 被击败
 char
@@ -192,10 +220,17 @@ ja
 何かがずっと聞こえている様な
 zh
 
+char
+博丽灵梦
 ja
 あ、あうんちゃん
 zh
 
+name
+ja
+{{博丽灵梦称号|2|兽王园}}<br>博麗　霊夢<br>Hakurei Reimu
+zh
+{{博丽灵梦称号|1|兽王园}}<br>[[博丽灵梦]]<br>Hakurei Reimu
 char
 博丽灵梦
 ja
@@ -244,6 +279,13 @@ ja
 神社に帰って大人しくしてなさい！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|3}}
+zh
+{{兽王园音乐名|1|3}}
+status
+弹幕开始！
 status
 [[博丽灵梦]] 被击败
 char
@@ -287,10 +329,17 @@ ja
 ……え？<br>狸が？
 zh
 
+char
+{{二岩}}
 ja
 おい
 zh
 
+name
+ja
+{{二岩称号|2|兽王园}}<br>二ッ岩　マミゾウ<br>Hutatsuiwa Mamizou
+zh
+{{二岩称号|1|兽王园}}<br>[[{{二岩}}]]<br>Hutatsuiwa Mamizou
 char
 {{二岩}}
 ja
@@ -321,6 +370,11 @@ ja
 おい、大変だ<br>お前の髪の中に……
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|4}}
+zh
+{{兽王园音乐名|1|4}}
 ja
 え？<br>目の前の狸は敵だって？
 zh
@@ -337,6 +391,8 @@ ja
 髪の中に狐がおる！<br>管狐じゃ！
 zh
 
+status
+弹幕开始！
 status
 [[{{二岩}}]] 被击败
 char
@@ -404,6 +460,8 @@ ja
 手懐けるってそんな……<br>動物か何かなの？
 zh
 
+char
+孙美天
 ja
 誰だ誰だ？
 zh
@@ -420,6 +478,16 @@ ja
 だ、誰！？
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|5}}
+zh
+{{兽王园音乐名|1|5}}
+name
+ja
+{{孙美天称号|2|兽王园}}<br>孫　美天<br>Son Biten
+zh
+{{孙美天称号|1|兽王园}}<br>孙美天<br>Son Biten
 char
 孙美天
 ja
@@ -480,6 +548,8 @@ ja
 くたばれ、神社の犬め！
 zh
 
+status
+弹幕开始！
 status
 [[孙美天]] 被击败
 char
@@ -607,6 +677,13 @@ ja
 近くに居るってことね
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|18}}
+zh
+{{兽王园音乐名|1|18}}
+char
+吉吊八千慧
 ja
 ご苦労だったな
 zh
@@ -623,6 +700,11 @@ ja
 あ、見た事ある気がする
 zh
 
+name
+ja
+{{吉吊八千慧称号|2|兽王园}}<br>吉弔　八千慧<br>Kitchou Yachie
+zh
+{{吉吊八千慧称号|1|兽王园}}<br>[[吉吊八千慧]]<br>Kitchou Yachie
 char
 吉吊八千慧
 ja
@@ -713,6 +795,13 @@ ja
 知らなかったの？<br>私は一対の神獣、二人いるのよ！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|9}}
+zh
+{{兽王园音乐名|1|9}}
+char
+吉吊八千慧
 ja
 なるほど……
 zh
@@ -741,6 +830,8 @@ ja
 ここで死んで貰うよ！
 zh
 
+status
+弹幕开始！
 status
 [[吉吊八千慧]] 被击败
 status

@@ -20,16 +20,28 @@ zh
 xx
 
 == Stage 1 ==
+bgm
+ja
+{{兽王园音乐名|2|5}}
+zh
+{{兽王园音乐名|1|5}}
 char
 吉吊八千慧
 ja
 よーし、そろそろだな<br>幻想郷の斉天大聖よ
 zh
 
+char
+孙美天
 ja
 はっ、お呼びで
 zh
 
+name
+ja
+{{孙美天称号|2|兽王园}}<br>孫　美天<br>Son Biten
+zh
+{{孙美天称号|1|兽王园}}<br>孙美天<br>Son Biten
 char
 孙美天
 ja
@@ -60,6 +72,8 @@ ja
 あ、やっぱり戦うんですね
 zh
 
+status
+弹幕开始！
 status
 [[孙美天]] 被击败
 char
@@ -109,16 +123,28 @@ zh
 xx
 
 == Stage 2 ==
+bgm
+ja
+{{兽王园音乐名|2|6}}
+zh
+{{兽王园音乐名|1|6}}
 char
 吉吊八千慧
 ja
 この辺だって話だけど
 zh
 
+char
+{{三头}}
 ja
 あ、その鱗のある長い尻尾は
 zh
 
+name
+ja
+{{三头称号|2|兽王园}}<br>三頭　慧ノ子<br>Mitsugashira Enoko
+zh
+{{三头称号|1|兽王园}}<br>[[{{三头}}]]<br>Mitsugashira Enoko
 char
 {{三头}}
 ja
@@ -143,6 +169,8 @@ ja
 祭の始まりだ！
 zh
 
+status
+弹幕开始！
 status
 [[{{三头}}]] 被击败
 char
@@ -186,10 +214,22 @@ ja
 能動的な戦闘に血湧き肉躍る思いだ
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|19}}
+zh
+{{兽王园音乐名|1|19}}
+char
+骊驹早鬼
 ja
 おう
 zh
 
+name
+ja
+{{骊驹早鬼称号|2|兽王园}}<br>驪駒　早鬼<br>Kurokoma Saki
+zh
+{{骊驹早鬼称号|1|兽王园}}<br>[[骊驹早鬼]]<br>Kurokoma Saki
 char
 骊驹早鬼
 ja
@@ -238,6 +278,8 @@ ja
 この世は弱肉強食だ！<br>最後は非道で乱暴な奴が勝つ！
 zh
 
+status
+弹幕开始！
 status
 [[骊驹早鬼]] 被击败
 char
@@ -305,6 +347,8 @@ ja
 おーい、チュパカブラはいるかー？
 zh
 
+char
+{{天火人}}
 ja
 誰だ？
 zh
@@ -315,6 +359,11 @@ ja
 自分はチュパカブラなんて<br>珍妙な妖怪じゃない！
 zh
 
+name
+ja
+{{天火人称号|2|兽王园}}<br>天火人　ちやり<br>Tenkajin Chiyari
+zh
+{{天火人称号|1|兽王园}}<br>[[{{天火人}}]]<br>Tenkajin Chiyari
 char
 {{天火人}}
 ja
@@ -345,6 +394,13 @@ ja
 あー、鬼傑組……<br>なるほどね
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|7}}
+zh
+{{兽王园音乐名|1|7}}
+char
+{{天火人}}
 ja
 饕餮に敵を見つけたら<br>構わず殺せと言われてたな
 zh
@@ -355,6 +411,8 @@ ja
 {{ruby-ja||8,16,おまえ}}<br>鬼傑組は敵なんだろう？<br>そうなんだろうー！？
 zh
 
+status
+弹幕开始！
 status
 [[{{天火人}}]] 被击败
 char
@@ -434,10 +492,17 @@ ja
 気を引き締めないと
 zh
 
+char
+饕餮尤魔
 ja
 おー、八千慧か
 zh
 
+name
+ja
+{{饕餮尤魔称号|2|兽王园}}<br>饕餮　尤魔<br>Toutetsu Yuma
+zh
+{{饕餮尤魔称号|1|兽王园}}<br>[[饕餮尤魔]]<br>Toutetsu Yuma
 char
 饕餮尤魔
 ja
@@ -474,6 +539,13 @@ ja
 ま、他の組織の方針に口出すのは良くないな
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|20}}
+zh
+{{兽王园音乐名|1|20}}
+char
+饕餮尤魔
 ja
 それよりさっさとやろうぜ
 zh
@@ -488,6 +560,8 @@ ja
 NOT
 zh
 
+status
+弹幕开始！
 status
 [[饕餮尤魔]] 被击败
 char
@@ -555,10 +629,17 @@ ja
 隠れてないで出てこい
 zh
 
+char
+日白残无
 ja
 隠れるのは鬼の本分じゃ
 zh
 
+name
+ja
+{{日白残无称号|2|兽王园}}<br>日白　残無<br>Nippaku Zanmu
+zh
+{{日白残无称号|1|兽王园}}<br>[[日白残无]]<br>Nippaku Zanmu
 char
 日白残无
 ja
@@ -607,6 +688,11 @@ ja
 どうせ畜生界の三勢力に同士討ちさせて<br>漁夫の利をかっさらう。って腹だったんでしょ！？
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|9}}
+zh
+{{兽王园音乐名|1|9}}
 char
 日白残无
 ja
@@ -631,6 +717,8 @@ ja
 最初から全て、儂の利だ！<br>判ったか畜生めが！
 zh
 
+status
+弹幕开始！
 status
 [[日白残无]] 被击败
 status

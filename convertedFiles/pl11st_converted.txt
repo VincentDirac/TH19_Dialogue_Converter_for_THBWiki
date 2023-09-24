@@ -20,16 +20,28 @@ zh
 xx
 
 == Stage 1 ==
+bgm
+ja
+{{兽王园音乐名|2|6}}
+zh
+{{兽王园音乐名|1|6}}
 char
 骊驹早鬼
 ja
 いるか？
 zh
 
+char
+{{三头}}
 ja
 はっ、早鬼様
 zh
 
+name
+ja
+{{三头称号|2|兽王园}}<br>三頭　慧ノ子<br>Mitsugashira Enoko
+zh
+{{三头称号|1|兽王园}}<br>[[{{三头}}]]<br>Mitsugashira Enoko
 char
 {{三头}}
 ja
@@ -54,6 +66,8 @@ ja
 つべこべ言うな<br>行くぞ！
 zh
 
+status
+弹幕开始！
 status
 [[{{三头}}]] 被击败
 char
@@ -109,10 +123,17 @@ ja
 まあ饕餮は気難しい奴だし<br>人に会わない方が気楽なんだろうな
 zh
 
+char
+{{天火人}}
 ja
 おっとっと
 zh
 
+name
+ja
+{{天火人称号|2|兽王园}}<br>天火人　ちやり<br>Tenkajin Chiyari
+zh
+{{天火人称号|1|兽王园}}<br>[[{{天火人}}]]<br>Tenkajin Chiyari
 char
 {{天火人}}
 ja
@@ -149,12 +170,24 @@ ja
 自分はチュパカブラなんて<br>珍妙な妖怪じゃない！
 zh
 
+name
+ja
+{{天火人称号|2|兽王园}}<br>天火人　ちやり<br>Tenkajin Chiyari
+zh
+{{天火人称号|1|兽王园}}<br>[[{{天火人}}]]<br>Tenkajin Chiyari
 char
 {{天火人}}
 ja
 {{ruby-ja||36,9,テンカジン}}<br>私は天火人だ！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|7}}
+zh
+{{兽王园音乐名|1|7}}
+char
+{{天火人}}
 ja
 饕餮に敵を見つけたら<br>構わず殺せと言われてたな
 zh
@@ -165,6 +198,8 @@ ja
 {{ruby-ja||8,16,おまえ}}<br>勁牙組は敵なんだろう？<br>そうなんだろうー！？
 zh
 
+status
+弹幕开始！
 status
 [[{{天火人}}]] 被击败
 char
@@ -220,10 +255,17 @@ ja
 おーい、尤魔ー<br>いるんだろー
 zh
 
+char
+饕餮尤魔
 ja
 誰だ？
 zh
 
+name
+ja
+{{饕餮尤魔称号|2|兽王园}}<br>饕餮　尤魔<br>Toutetsu Yuma
+zh
+{{饕餮尤魔称号|1|兽王园}}<br>[[饕餮尤魔]]<br>Toutetsu Yuma
 char
 饕餮尤魔
 ja
@@ -254,6 +296,13 @@ ja
 ま、いらんけどな
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|20}}
+zh
+{{兽王园音乐名|1|20}}
+char
+饕餮尤魔
 ja
 それよりさっさとやろうぜ
 zh
@@ -270,6 +319,8 @@ ja
 今夜は馬刺しと焼き鳥だぜー！
 zh
 
+status
+弹幕开始！
 status
 [[饕餮尤魔]] 被击败
 char
@@ -361,10 +412,17 @@ ja
 まずは報復あるのみだ！
 zh
 
+char
+孙美天
 ja
 あ、貴方は
 zh
 
+name
+ja
+{{孙美天称号|2|兽王园}}<br>孫　美天<br>Son Biten
+zh
+{{孙美天称号|1|兽王园}}<br>孙美天<br>Son Biten
 char
 孙美天
 ja
@@ -383,6 +441,13 @@ ja
 私がここに来た理由が<br>判っているみたいだな
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|5}}
+zh
+{{兽王园音乐名|1|5}}
+char
+孙美天
 ja
 よーし、幹部と戦ってみたかったんだー！
 zh
@@ -393,6 +458,8 @@ ja
 覚悟しろ、馬女め！
 zh
 
+status
+弹幕开始！
 status
 [[孙美天]] 被击败
 char
@@ -460,10 +527,22 @@ ja
 慧ノ子に何があるんだ？
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|18}}
+zh
+{{兽王园音乐名|1|18}}
+char
+吉吊八千慧
 ja
 おーい、ここに居たか
 zh
 
+name
+ja
+{{吉吊八千慧称号|2|兽王园}}<br>吉弔　八千慧<br>Kitchou Yachie
+zh
+{{吉吊八千慧称号|1|兽王园}}<br>[[吉吊八千慧]]<br>Kitchou Yachie
 char
 吉吊八千慧
 ja
@@ -512,6 +591,8 @@ ja
 この世は弱肉強食だ！<br>最後は非道で乱暴な奴が勝つ！
 zh
 
+status
+弹幕开始！
 status
 [[吉吊八千慧]] 被击败
 char
@@ -585,10 +666,17 @@ ja
 ねぇ、貴方の仕業ですよねぇ<br>残無さま！
 zh
 
+char
+日白残无
 ja
 遅い遅い
 zh
 
+name
+ja
+{{日白残无称号|2|兽王园}}<br>日白　残無<br>Nippaku Zanmu
+zh
+{{日白残无称号|1|兽王园}}<br>[[日白残无]]<br>Nippaku Zanmu
 char
 日白残无
 ja
@@ -631,6 +719,11 @@ ja
 そうはいかんぞ！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|9}}
+zh
+{{兽王园音乐名|1|9}}
 char
 日白残无
 ja
@@ -661,6 +754,8 @@ ja
 最初から全て儂の掌の上だ！<br>判ったか畜生めが！
 zh
 
+status
+弹幕开始！
 status
 [[日白残无]] 被击败
 status

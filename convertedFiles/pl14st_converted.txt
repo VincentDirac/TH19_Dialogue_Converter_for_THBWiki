@@ -26,10 +26,17 @@ ja
 よーし、今日もバッチリ目が覚めた！
 zh
 
+char
+吉吊八千慧
 ja
 よーし、そろそろだな
 zh
 
+name
+ja
+{{吉吊八千慧称号|2|兽王园}}<br>吉弔　八千慧<br>Kitchou Yachie
+zh
+{{吉吊八千慧称号|1|兽王园}}<br>[[吉吊八千慧]]<br>Kitchou Yachie
 char
 吉吊八千慧
 ja
@@ -66,6 +73,13 @@ ja
 あ、やっぱり戦うんですね
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|2}}
+zh
+{{兽王园音乐名|1|2}}
+status
+弹幕开始！
 status
 [[吉吊八千慧]] 被击败
 char
@@ -139,10 +153,17 @@ ja
 なんかやっつけても罪悪感無い奴<br>出てこないかなー
 zh
 
+char
+清兰
 ja
 さ、猿だー
 zh
 
+name
+ja
+{{清兰称号|2|兽王园}}<br>清蘭<br>Seiran
+zh
+{{清兰称号|1|兽王园}}<br>[[清兰]]<br>Seiran
 char
 清兰
 ja
@@ -167,6 +188,13 @@ ja
 好戦的なのも素敵
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|2}}
+zh
+{{兽王园音乐名|1|2}}
+status
+弹幕开始！
 status
 [[清兰]] 被击败
 char
@@ -222,16 +250,28 @@ zh
 xx
 
 == Stage 3 ==
+bgm
+ja
+{{兽王园音乐名|2|10}}
+zh
+{{兽王园音乐名|1|10}}
 char
 孙美天
 ja
 早苗ちゃんは帰ってきてるかなー
 zh
 
+char
+东风谷早苗
 ja
 あ、美天ちゃんだー
 zh
 
+name
+ja
+{{东风谷早苗称号|2|兽王园}}<br>東風谷　早苗<br>Kochiya Sanae
+zh
+{{东风谷早苗称号|1|兽王园}}<br>[[东风谷早苗]]<br>Kochiya Sanae
 char
 东风谷早苗
 ja
@@ -274,6 +314,8 @@ ja
 え？
 zh
 
+status
+弹幕开始！
 status
 [[东风谷早苗]] 被击败
 char
@@ -335,10 +377,22 @@ ja
 って、え？　貴方は……
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|4}}
+zh
+{{兽王园音乐名|1|4}}
+char
+博丽灵梦
 ja
 あら死んだの？
 zh
 
+name
+ja
+{{博丽灵梦称号|2|兽王园}}<br>博麗　霊夢<br>Hakurei Reimu
+zh
+{{博丽灵梦称号|1|兽王园}}<br>[[博丽灵梦]]<br>Hakurei Reimu
 char
 博丽灵梦
 ja
@@ -369,6 +423,8 @@ ja
 あんたはあの地獄の鬼の手先だ<br>調伏してやる！
 zh
 
+status
+弹幕开始！
 status
 [[博丽灵梦]] 被击败
 char
@@ -470,6 +526,11 @@ ja
 え？　貴方は誰？
 zh
 
+name
+ja
+{{豫母都日狭美称号|2|兽王园}}<br>豫母都　日狭美<br>Yomotsu Hisami
+zh
+{{豫母都日狭美称号|1|兽王园}}<br>[[豫母都日狭美]]<br>Yomotsu Hisami
 char
 豫母都日狭美
 ja
@@ -500,10 +561,19 @@ ja
 ふっふっふ、勿論でございます<br>でもその前に
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|8}}
+zh
+{{兽王园音乐名|1|8}}
+char
+豫母都日狭美
 ja
 地獄の流儀に従って頂きます！
 zh
 
+status
+弹幕开始！
 status
 [[豫母都日狭美]] 被击败
 char
@@ -571,6 +641,8 @@ ja
 余り代わり映えがしないけど
 zh
 
+char
+伊吹萃香
 ja
 誰だ？
 zh
@@ -587,6 +659,11 @@ ja
 え？　貴方は……
 zh
 
+name
+ja
+{{伊吹萃香称号|2|兽王园}}<br>伊吹　萃香<br>Ibuki Suika
+zh
+{{伊吹萃香称号|1|兽王园}}<br>[[伊吹萃香]]<br>Ibuki Suika
 char
 伊吹萃香
 ja
@@ -635,6 +712,13 @@ ja
 ……
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|9}}
+zh
+{{兽王园音乐名|1|9}}
+char
+伊吹萃香
 ja
 いっちょ前に悲しんでるのか？怒ってるのか？<br>お前だって一杯人を騙してきただろ
 zh
@@ -663,6 +747,8 @@ ja
 ま、地獄を楽しんでいこうぜ<br>どうせ自力では出られないんだ
 zh
 
+status
+弹幕开始！
 status
 [[伊吹萃香]] 被击败
 status

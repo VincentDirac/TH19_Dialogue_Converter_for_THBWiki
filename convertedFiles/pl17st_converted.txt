@@ -26,10 +26,17 @@ ja
 ふふふ。地上には地獄に堕ちるのを<br>待つだけの者が大勢いるな
 zh
 
+char
+博丽灵梦
 ja
 え？
 zh
 
+name
+ja
+{{博丽灵梦称号|2|兽王园}}<br>博麗　霊夢<br>Hakurei Reimu
+zh
+{{博丽灵梦称号|1|兽王园}}<br>[[博丽灵梦]]<br>Hakurei Reimu
 char
 博丽灵梦
 ja
@@ -54,6 +61,13 @@ ja
 ふふふ<br>私から逃げられるとお思いで？
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|2}}
+zh
+{{兽王园音乐名|1|2}}
+status
+弹幕开始！
 status
 [[博丽灵梦]] 被击败
 char
@@ -109,10 +123,22 @@ ja
 地上には私みたいな案内人は<br>いないんですかねぇ
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|5}}
+zh
+{{兽王园音乐名|1|5}}
+char
+孙美天
 ja
 お、お前は
 zh
 
+name
+ja
+{{孙美天称号|2|兽王园}}<br>孫　美天<br>Son Biten
+zh
+{{孙美天称号|1|兽王园}}<br>孙美天<br>Son Biten
 char
 孙美天
 ja
@@ -137,6 +163,8 @@ ja
 お前が案内してくれなかったからだ！
 zh
 
+status
+弹幕开始！
 status
 [[孙美天]] 被击败
 char
@@ -198,10 +226,22 @@ ja
 さてとお次は
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|6}}
+zh
+{{兽王园音乐名|1|6}}
+char
+{{三头}}
 ja
 あー、お前は
 zh
 
+name
+ja
+{{三头称号|2|兽王园}}<br>三頭　慧ノ子<br>Mitsugashira Enoko
+zh
+{{三头称号|1|兽王园}}<br>[[{{三头}}]]<br>Mitsugashira Enoko
 char
 {{三头}}
 ja
@@ -226,6 +266,8 @@ ja
 うるさいわ<br>案内人なら案内人らしく、こっちに合わせてよ！
 zh
 
+status
+弹幕开始！
 status
 [[{{三头}}]] 被击败
 char
@@ -293,10 +335,22 @@ ja
 なるほど、愛らしい名前を貰ったもんで
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|7}}
+zh
+{{兽王园音乐名|1|7}}
+char
+{{天火人}}
 ja
 あー、お前は
 zh
 
+name
+ja
+{{天火人称号|2|兽王园}}<br>天火人　ちやり<br>Tenkajin Chiyari
+zh
+{{天火人称号|1|兽王园}}<br>[[{{天火人}}]]<br>Tenkajin Chiyari
 char
 {{天火人}}
 ja
@@ -333,6 +387,8 @@ ja
 ふ、私から逃げられるとお思いで？
 zh
 
+status
+弹幕开始！
 status
 [[{{天火人}}]] 被击败
 char
@@ -394,10 +450,22 @@ ja
 もう一回、あの鬼の所に<br>連れて行ってやろうかしら
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|4}}
+zh
+{{兽王园音乐名|1|4}}
+char
+伊吹萃香
 ja
 おいおいやめておけ
 zh
 
+name
+ja
+{{伊吹萃香称号|2|兽王园}}<br>伊吹　萃香<br>Ibuki Suika
+zh
+{{伊吹萃香称号|1|兽王园}}<br>[[伊吹萃香]]<br>Ibuki Suika
 char
 伊吹萃香
 ja
@@ -428,6 +496,8 @@ ja
 そしたら自分勝手てんこ盛りだったなぁ<br>いい加減にしな！
 zh
 
+status
+弹幕开始！
 status
 [[伊吹萃香]] 被击败
 char
@@ -489,10 +559,17 @@ ja
 約束通り、みんなを呼んで参りました
 zh
 
+char
+日白残无
 ja
 ご苦労じゃったな
 zh
 
+name
+ja
+{{日白残无称号|2|兽王园}}<br>日白　残無<br>Nippaku Zanmu
+zh
+{{日白残无称号|1|兽王园}}<br>[[日白残无]]<br>Nippaku Zanmu
 char
 日白残无
 ja
@@ -535,6 +612,13 @@ ja
 その節は申し訳ございませんでした<br>なので、是非お叱りを……
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|9}}
+zh
+{{兽王园音乐名|1|9}}
+char
+日白残无
 ja
 ふっ
 zh
@@ -581,6 +665,8 @@ ja
 類い希なる地獄の褒美をな！
 zh
 
+status
+弹幕开始！
 status
 [[日白残无]] 被击败
 status

@@ -38,10 +38,17 @@ ja
 早いところ要注意人物の<br>饕餮を探したいんじゃが
 zh
 
+char
+高丽野阿吽
 ja
 あははは
 zh
 
+name
+ja
+{{高丽野阿吽称号|2|兽王园}}<br>高麗野　あうん<br>Komano Aun
+zh
+{{高丽野阿吽称号|1|兽王园}}<br>[[高丽野阿吽]]<br>Komano Aun
 char
 高丽野阿吽
 ja
@@ -92,10 +99,17 @@ zh
 
 char
 {{二岩}}
+bgm
+ja
+{{兽王园音乐名|2|17}}
+zh
+{{兽王园音乐名|1|17}}
 ja
 髪の中に狐がおる！<br>管狐じゃ！
 zh
 
+status
+弹幕开始！
 status
 [[高丽野阿吽]] 被击败
 char
@@ -133,10 +147,17 @@ ja
 最近は守矢神社の加護を<br>受けているらしいな
 zh
 
+char
+菅牧典
 ja
 これはこれは
 zh
 
+name
+ja
+{{菅牧典称号|2|兽王园}}<br>菅牧　典<br>Kudamaki Tsukasa
+zh
+{{菅牧典称号|1|兽王园}}<br>[[菅牧典]]<br>Kudamaki Tsukasa
 char
 菅牧典
 ja
@@ -179,6 +200,13 @@ ja
 低級で結構<br>外道妖獣さん！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|17}}
+zh
+{{兽王园音乐名|1|17}}
+status
+弹幕开始！
 status
 [[菅牧典]] 被击败
 char
@@ -258,10 +286,17 @@ ja
 さすが管狐だ<br>中々の情報網を持ってるな
 zh
 
+char
+饕餮尤魔
 ja
 誰だ？
 zh
 
+name
+ja
+{{饕餮尤魔称号|2|兽王园}}<br>饕餮　尤魔<br>Toutetsu Yuma
+zh
+{{饕餮尤魔称号|1|兽王园}}<br>[[饕餮尤魔]]<br>Toutetsu Yuma
 char
 饕餮尤魔
 ja
@@ -316,6 +351,13 @@ ja
 え？
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|4}}
+zh
+{{兽王园音乐名|1|4}}
+char
+饕餮尤魔
 ja
 ただし、弱い奴は要らん
 zh
@@ -326,6 +368,8 @@ ja
 判ってるよな？
 zh
 
+status
+弹幕开始！
 status
 [[饕餮尤魔]] 被击败
 char
@@ -411,10 +455,17 @@ ja
 若干の作戦変更が必要か
 zh
 
+char
+{{天火人}}
 ja
 墓場で独り言か
 zh
 
+name
+ja
+{{天火人称号|2|兽王园}}<br>天火人　ちやり<br>Tenkajin Chiyari
+zh
+{{天火人称号|1|兽王园}}<br>[[{{天火人}}]]<br>Tenkajin Chiyari
 char
 {{天火人}}
 ja
@@ -427,6 +478,11 @@ ja
 誰じゃ
 zh
 
+name
+ja
+{{天火人称号|2|兽王园}}<br>天火人　ちやり<br>Tenkajin Chiyari
+zh
+{{天火人称号|1|兽王园}}<br>[[{{天火人}}]]<br>Tenkajin Chiyari
 char
 {{天火人}}
 ja
@@ -451,6 +507,13 @@ ja
 いかにも
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|7}}
+zh
+{{兽王园音乐名|1|7}}
+char
+{{天火人}}
 ja
 ふん、饕餮は何を考えてるんだ
 zh
@@ -467,6 +530,8 @@ ja
 なー！<br>化け狸の二ッ岩マミゾウさんよう！
 zh
 
+status
+弹幕开始！
 status
 [[{{天火人}}]] 被击败
 char
@@ -540,6 +605,8 @@ ja
 何とか途中で逃げ出せたみたいだが<br>ここはどこだ？
 zh
 
+char
+豫母都日狭美
 ja
 地獄へようこそ
 zh
@@ -556,6 +623,11 @@ ja
 誰じゃ？
 zh
 
+name
+ja
+{{豫母都日狭美称号|2|兽王园}}<br>豫母都　日狭美<br>Yomotsu Hisami
+zh
+{{豫母都日狭美称号|1|兽王园}}<br>[[豫母都日狭美]]<br>Yomotsu Hisami
 char
 豫母都日狭美
 ja
@@ -586,6 +658,13 @@ ja
 知るか、罠に嵌まったんじゃ<br>今すぐ帰るからな！
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|8}}
+zh
+{{兽王园音乐名|1|8}}
+char
+豫母都日狭美
 ja
 おやおや、ご存じでない？
 zh
@@ -602,6 +681,8 @@ ja
 さあさあ、地獄の果てまでも案内いたしましょう！
 zh
 
+status
+弹幕开始！
 status
 [[豫母都日狭美]] 被击败
 char
@@ -657,6 +738,8 @@ ja
 なーんにも無い<br>ほんと、なーんにも無い
 zh
 
+char
+日白残无
 ja
 やっと来たか
 zh
@@ -673,6 +756,11 @@ ja
 お前は誰だ？
 zh
 
+name
+ja
+{{日白残无称号|2|兽王园}}<br>日白　残無<br>Nippaku Zanmu
+zh
+{{日白残无称号|1|兽王园}}<br>[[日白残无]]<br>Nippaku Zanmu
 char
 日白残无
 ja
@@ -715,6 +803,11 @@ ja
 邪魔？<br>お前は鬼傑組か勁牙組の奴なのか？
 zh
 
+bgm
+ja
+{{兽王园音乐名|2|9}}
+zh
+{{兽王园音乐名|1|9}}
 char
 日白残无
 ja
@@ -745,6 +838,8 @@ ja
 この残無の掌の上で踊る、愉快で愛しい者達をな
 zh
 
+status
+弹幕开始！
 status
 [[日白残无]] 被击败
 status
