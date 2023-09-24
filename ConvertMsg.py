@@ -2,9 +2,10 @@ import os
 import CreateDatabase
 import sqlite3
 
+
 def main():
     CreateDatabase.CreateDatabase("data/TH19_BossTitles.xlsx", "data/TH19_BGM_Map.xlsx",
-                "data/TH19_Story.xlsx", "data/TH19_CharaNo.xlsx", "data/TH19_database.db")
+                                  "data/TH19_Story.xlsx", "data/TH19_CharaNo.xlsx", "data/TH19_database.db")
     path = "E:/VincentDirac/thtk-Unpack_TH19_All_in_One/dialogue/"
     for root, folders, files in os.walk(path):
         for file in files:
@@ -14,7 +15,8 @@ def main():
                 pass
             else:
                 convertMsg(root, file)
-            
+
+
 def convertMsg(root, file):
     TH19_database = sqlite3.connect("data/TH19_database.db")
     dbCursorStory = TH19_database.cursor()
@@ -23,7 +25,8 @@ def convertMsg(root, file):
                      Where CharaNo = '{}'""".format(playerName))
     charaResult = dbCursorStory.fetchone()
     with open(root + file, "r+", encoding="utf-8") as f:
-        g = open("convertedFiles/" + playerName + "st_converted.txt", "w+", encoding="utf-8")
+        g = open("convertedFiles/" + playerName +
+                 "st_converted.txt", "w+", encoding="utf-8")
         fileList = f.readlines()
         stageID = 0
         stageNo = 0
@@ -40,11 +43,15 @@ def convertMsg(root, file):
                         g.write("xx\n\n== Stage {} ==\n".format(stageNo))
                         print("xx\n\n== Stage {} ==\n".format(stageNo))
                     elif stageID == 1:
-                        g.write("status\n弹幕开始！\nstatus\n[[{}]] 被击败\n".format(charaResult[stageNo+3]))
-                        print("status\n弹幕开始！\nstatus\n[[{}]] 被击败\n".format(charaResult[stageNo+3]))
+                        g.write("status\n弹幕开始！\nstatus\n[[{}]] 被击败\n".format(
+                            charaResult[stageNo+3]))
+                        print("status\n弹幕开始！\nstatus\n[[{}]] 被击败\n".format(
+                            charaResult[stageNo+3]))
                         if stageNo == 6:
-                            g.write("status\n[[#{0}|{0}]]\n".format(charaResult[10]))
-                            print("status\n[[#{0}|{0}]]\n".format(charaResult[10]))
+                            g.write("status\n[[#{0}|{0}]]\n".format(
+                                charaResult[10]))
+                            print("status\n[[#{0}|{0}]]\n".format(
+                                charaResult[10]))
                     elif stageID == 2:
                         g.write("status\n如果玩家被击败\n")
                         print("status\n如果玩家被击败\n")
@@ -139,7 +146,8 @@ def convertMsg(root, file):
                     g.write("ja\n")
                     print("ja\n")
                 if "\t17;|" in line:
-                    g.write(line.replace("\t17;|", "ruby-ja||").rstrip("\n") + "<br>")
+                    g.write(line.replace(
+                        "\t17;|", "ruby-ja||").rstrip("\n") + "<br>")
                     print(line.replace("\t17;|", "ruby-ja||").rstrip("\n") + "<br>")
                 else:
                     if "\t17;" in fileList[item+1]:
@@ -159,6 +167,8 @@ def convertMsg(root, file):
                 pass
 
 # 条件块太多了。还有bgm和name比较麻烦。又不想手调，也许可以考虑二次替换emmm睡了（
+
+
 def writeBossTitle(dbName, charaResult, stageNo, writeFile):
     dbCursorTitles = dbName.cursor()
     dbCursorTitles.execute("""SELECT * FROM BossTitles
@@ -168,6 +178,7 @@ def writeBossTitle(dbName, charaResult, stageNo, writeFile):
     writeFile.write(bossTitle)
     print(bossTitle)
 
+
 def writeBGM(dbName, line, writeFile):
     dbCursorBGM = dbName.cursor()
     dbCursorBGM.execute("""SELECT bgmWikitext FROM BGMMap
@@ -176,6 +187,7 @@ def writeBGM(dbName, line, writeFile):
     BGM = BGM[0].replace("\\n", "\n")
     writeFile.write(BGM)
     print(BGM)
+
 
 if __name__ == "__main__":
     main()
