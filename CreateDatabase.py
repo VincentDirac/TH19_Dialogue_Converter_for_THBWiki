@@ -26,7 +26,7 @@ def CreateTableBGMMap(txtFileName, dbName):
 def CreateTableStory(txtFileName, dbName):
     # 创建各故事线自机BOSS结局编号对应关系
     sheetStory = pd.read_excel(txtFileName)
-    sheetStoty.to_sql("Story", dbName, if_exists='replace')
+    sheetStory.to_sql("Story", dbName, if_exists='replace')
 
 
 if __name__ == "__main__":
