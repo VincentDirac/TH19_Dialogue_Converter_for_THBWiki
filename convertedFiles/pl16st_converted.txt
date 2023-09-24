@@ -794,7 +794,7 @@ status
 status
 [[伊吹萃香]] 被击败
 status
-[[#Ending No. 17|Ending No. 17]]
+[[#Ending No. 16|Ending No. 16]]
 status
 如果玩家被击败
 char

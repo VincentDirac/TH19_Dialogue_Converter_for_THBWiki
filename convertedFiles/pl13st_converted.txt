@@ -688,7 +688,7 @@ status
 status
 [[日白残无]] 被击败
 status
-[[#Ending No. 14|Ending No. 14]]
+[[#Ending No. 18|Ending No. 18]]
 status
 如果玩家被击败
 char
