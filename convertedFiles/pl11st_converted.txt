@@ -422,7 +422,7 @@ name
 ja
 {{孙美天称号|2|兽王园}}<br>孫　美天<br>Son Biten
 zh
-{{孙美天称号|1|兽王园}}<br>孙美天<br>Son Biten
+{{孙美天称号|1|兽王园}}<br>[[孙美天]]<br>Son Biten
 char
 孙美天
 ja
