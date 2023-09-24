@@ -174,8 +174,8 @@ def writeBGM(dbName, line, writeFile):
         Where bgmZUNMsgText = '{}'""".format(line.replace("\n", "\\n").replace("\t", "\\t")))
     BGM = dbCursorBGM.fetchone()
     BGM = BGM[0].replace("\\n", "\n")
-    writeFile.write(BGM)
-    print(BGM)
+    writeFile.write("BGM: " + BGM)
+    print("BGM: " + BGM)
 
 if __name__ == "__main__":
     main()
