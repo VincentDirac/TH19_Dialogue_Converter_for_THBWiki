@@ -139,8 +139,8 @@ def convertMsg(root, file):
                     g.write("ja\n")
                     print("ja\n")
                 if "\t17;|" in line:
-                    g.write(line.replace("\t17;|", "{{ruby-ja||").rstrip("\n") + "}}<br>")
-                    print(line.replace("\t17;|", "{{ruby-ja||").rstrip("\n") + "}}<br>")
+                    g.write(line.replace("\t17;|", "ruby-ja||").rstrip("\n") + "<br>")
+                    print(line.replace("\t17;|", "ruby-ja||").rstrip("\n") + "<br>")
                 else:
                     if "\t17;" in fileList[item+1]:
                         g.write(line.replace("\t17;", "").rstrip("\n") + "<br>")
